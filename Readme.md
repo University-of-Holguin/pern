@@ -1,3 +1,7 @@
+# PERN (PostgreSql, ExpressJs, ReactJs, NodeJs) stack.
+
+## Start server
+
 1. Change to directory `server`
 2. `npm install` or `yarn install`
 3. Create `.env` file with the follows params:
@@ -14,3 +18,9 @@
 
 4. Run migrations `yarn sequelize db:migrate` or `npx sequelize db:migrate`
 5. Seed the database `yarn sequelize db:seed:all` or `npx sequelize db:seed:all`
+
+## Start client
+
+1. Change to directory `cliente`
+2. `npm install` or `yarn install`
+3. `yarn run start` or `npm run-script start` for start developed server
